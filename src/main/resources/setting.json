@@ -1,0 +1,74 @@
+{
+  "option": {
+    "form": {
+      "inline": false,
+      "hideRequiredAsterisk": false,
+      "labelPosition": "right",
+      "size": "default",
+      "labelWidth": "125px"
+    },
+    "resetBtn": {
+      "show": false,
+      "innerText": "重置"
+    },
+    "submitBtn": {
+      "show": true,
+      "innerText": "提交"
+    }
+  },
+  "rule": [
+    {
+      "type": "elAlert",
+      "props": {
+        "description": "您可以在下方进行自定义随机渐变色组, 如#f12711-#f5af19代表从#f12711渐变至#f5af19, 多个渐变色组使用英文逗号分隔, 可参考默认渐变色组#f12711-#f5af19,#fc466b-#3f5efb,#11998e-#38ef7d,#00f260-#0575e6,#03001e-#7303c0-#ec38bc-#fdeff9,#1a2a6c-#b21f1f-#fdbb2d,#a770ef-#cf8bf3-#fdb99b,#a18cd1-#fbc2eb,#ff8177-#f99185-#cf556c-#b12a5b,#f6d365-#fda085,#d4fc79-#96e6a1,#84fab0-#8fd3f4",
+        "type": "warning",
+        "effect": "dark",
+        "showIcon": true,
+        "closable": false
+      },
+      "_fc_id": "id_Fvygm49hu3uib2c",
+      "name": "ref_Faa0m49hu3uib3c",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "elAlert"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "native": true,
+      "attrs": {
+        "innerHTML": ""
+      },
+      "style": {
+        "display": "block",
+        "width": "100%"
+      },
+      "children": [
+        "<br></br>"
+      ],
+      "_fc_id": "id_Frwwm49hy91cb4c",
+      "name": "ref_Fibxm49hy91cb5c",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "html"
+    },
+    {
+      "type": "input",
+      "field": "ICON_RANDOM_COLORS",
+      "title": "自定义渐变色组",
+      "info": "自定义渐变色组",
+      "$required": false,
+      "props": {
+        "type": "textarea",
+        "placeholder": "请输入自定义渐变色组",
+        "rows": 15,
+        "autosize": false
+      },
+      "_fc_id": "id_Ff4zm49hu1uub0c",
+      "name": "ref_Fy2jm49hu1uub1c",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "textarea"
+    }
+  ]
+}
